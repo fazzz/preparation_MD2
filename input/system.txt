@@ -1,0 +1,5 @@
+PROA 1 LARGE PROTEIN
+CARC 1 LARGE LIPID
+SOD            29
+CLA            29
+TIP3P        10231

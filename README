@@ -1,0 +1,11 @@
+# This scripts performs preparation and equilibiration of open-state MD2 for MD simulation
+
+# Preparation input files by Charm-gui
+
+qsub 10steps_preparation.sh
+
+# Then the follwing directories are generated.
+
+step01_initial_minimization_of_mobile_molecules/  step03_initial_minimization_of_large_molecules/    step05_final_minimization_of_system/            step07_continued_relaxzation_of_large_molecules/  step09_unrestrained_relaxzation/
+step02_initial_relaxzation_of_mobile_molecules/   step04_continued_minimization_of_large_molecules/  step06_initial_relaxzation_of_large_molecules/  step08_relaxzation_of_non-backbone_atoms/         step10_final_density_stabilization/
+
